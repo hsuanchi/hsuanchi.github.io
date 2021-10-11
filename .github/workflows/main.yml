@@ -10,11 +10,16 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
+      - name: Check out repository
+        run: | 
+          ls -lah $GITHUB_WORKSPACE
+          echo $(pwd)
+        
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.HUGO_DEPLOY_TOKEN }}
           PUBLISH_BRANCH: github-pages
-          PUBLISH_DIR: ./public
+          PUBLISH_DIR: /home/runner/work/hsuanchi.github.io/hsuanchi.github.io/public
           commit_message: ${{ github.event.head_commit.message }}
