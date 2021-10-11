@@ -1,2 +1,5 @@
-git add public && git commit -m "deploy"
-git subtree push -f --prefix public origin github-pages
+git checkout github-pages
+git checkout main -- public
+git add public
+git commit -m "auto deploy"
+git push
