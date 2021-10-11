@@ -106,6 +106,9 @@ $ hugo serve
 ```
 $ hugo
 ```
+```
+$ hugo --minify
+```
 
 
 ```
