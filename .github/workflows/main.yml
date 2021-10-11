@@ -10,6 +10,11 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
+      - name: Check out repository
+        run: | 
+          ls -lah $GITHUB_WORKSPACE
+          echo $(pwd)
+        
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
