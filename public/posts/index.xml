@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - Maxlist</title>
+        <link>https://hsuanchi.github.io/posts/</link>
+        <description>All Posts | Maxlist</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 10 Oct 2021 19:20:35 &#43;0800</lastBuildDate><atom:link href="https://hsuanchi.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Hugo_quick_start</title>
+    <link>https://hsuanchi.github.io/posts/hugo_quick_start/</link>
+    <pubDate>Sun, 10 Oct 2021 19:20:35 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://hsuanchi.github.io/posts/hugo_quick_start/</guid>
+    <description><![CDATA[Install Hugo Mac - install with homebrew $ brew install hugo Windows - install with Scoop $ scoop install hugo Quick start Step 1: Create a New Site $ hugo new site {name} Step 2: Add a Theme We will use the Loveit theme here.
+$ cd {name} $ git submodule add https://github.com/dillonzq/LoveIt.git themes/LoveIt Step 3: Change the configuration Copy below code to the config.toml.
+baseURL = &quot;http://example.org/&quot; # [en, zh-cn, fr, .]]></description>
+</item></channel>
+</rss>
