@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Maxlist Newsletter</title>
+    <meta name="description" content="Subscribe! Get latest Marketing News every Thursday">
+    <meta property="og:title" content="Maxlist Newsletter" />
+    <meta property="og:image" content="https://article.maxlist.xyz/static/img/max.png" />
+    <meta property="og:description" content="Maxlist Newsletter" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:url" content="https://article.maxlist.xyz/">
+    <link rel="canonical" href="https://article.maxlist.xyz/">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:black" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.5.0/css/bootstrap4-toggle.min.css"
+        rel="stylesheet">
+
+    <link rel="shortcut icon" href="/static/img/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="/static/css/layout.css">
+
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WJLH4B2');
+    </script>
+
+</head>
+
+<body class='mode dark'>
+
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJLH4B2" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+
+    <script>
+        (function () {
+            function setCookie(cname, cvalue, exdays) {
+                var d = new Date();
+                var exdays = exdays ? exdays : 7; // 預設 7 天
+                d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+                var expires = 'expires=' + d.toGMTString();
+                var path = 'path=/';
+                document.cookie = cname + '=' + cvalue + '; ' + expires + '; ' + path;
+            }
+
+            function getCookie(cname) {
+                var name = cname + '=';
+                var ca = document.cookie.split(';');
+                for (var i = 0; i < ca.length; i++) {
+                    var c = ca[i].trim();
+                    if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+                }
+                return '';
+            }
+
+            function set_mode(mode_type) {
+                setCookie('mode_type', mode_type, 30)
+                $(document.body).removeClass().addClass(mode_type)
+                if (mode_type == 'dark') {
+                    $('#mode_type_id span').text("Light Mode")
+                } else {
+                    $('#mode_type_id span').text("Dark Mode")
+                }
+            }
+
+            var setting_type = function () {
+                let mode_type = getCookie('mode_type');
+
+                $(document.body).removeClass().addClass(mode_type)
+                $(document).ready(function () {
+                    if (mode_type == 'light') {
+                        set_mode('light')
+                    } else {
+                        set_mode('dark')
+                    }
+                })
+            }();
+
+            $('body').on('click', '#mode_type_id', function () {
+                let mode_type = getCookie('mode_type');
+                if (mode_type == 'light') {
+                    set_mode('dark')
+                } else {
+                    set_mode('light')
+                }
+            })
+        })()
+    </script>
+
+    <nav class="navbar sticky-top navbar-transparent navbar-expand-lg">
+        <div class="mt-2 my-2 my-lg-0 ml-auto">
+            <button class="badge badge-sm badge-light mr-1" id="mode_type_id" type="button"><i class="material-icons"
+                    style="font-size: 12px"></i> <span></span></button>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <div class="col-12 pb-5 pt-3">
+                <div class='row'>
+                    <div class="col-sm-3 col-md-4 col-lg-5 d-none d-sm-block">
+                        <div style="float:right">
+                            <a href="/">
+                                <img src="/static/img/max.png"
+                                    style="margin-bottom:0;width:4.2rem;height:4.2rem;border-radius:50%;">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-9 col-md-8 col-lg-7 d-none d-sm-block">
+                        <h1>
+                            <a href='/' style="box-shadow:none;text-decoration:none;color:var(--textTitle)">
+                                Maxlist
+                            </a>
+                        </h1>
+                        <small>Marketing, Data and Python</small>
+                    </div>
+                </div>
+                <div class="col-12 d-sm-none">
+                    <div class='row'>
+                        <div class="col-12" style="text-align:center;">
+                            <h1 style="font-family:Montserrat, sans-serif;font-size:2.25rem;">
+                                <a href='//' style="box-shadow:none;text-decoration:none;color:var(--textTitle)">
+                                    Maxlist
+                                </a>
+                            </h1>
+                        </div>
+                        <div class="col-12" style="text-align:center;">
+                            <small>Marketing, Data and Python</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container my-4 py-4 pb-5">
+            <div class="row">
+                <div class="col-12">
+                    <div class="swal2-icon swal2-error swal2-animate-error-icon" style="display: flex;"><span
+                            class="swal2-x-mark"><span class="swal2-x-mark-line-left"></span><span
+                                class="swal2-x-mark-line-right"></span></span>
+                    </div>
+                    <h2 class="swal2-title">Page Not Found 404</h2>
+                    <p class="swal2-content">What you were looking for is just not there.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+
+            <div class="row pt-5 pb-4">
+                <div class="col-6 col-md" style="text-align:center;">
+                    <h3>About</h3>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="/">Made with ☕ by Max</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md" style="text-align:center;">
+                    <h3>Explore</h3>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" target="_blank" href="https://maxlist.xyz/">Blog</a></li>
+                        <li><a class="text-muted" target="_blank"
+                                href="https://www.facebook.com/profile.php?id=100002148309560">Facebook</a></li>
+                        <li><a class="text-muted" target="_blank" href="https://github.com/hsuanchi">GitHub</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md" style="text-align:center;">
+                    <img class="mb-2" src="/static/img/max.png" alt="max_icon" width="24" height="24">
+                    <small class="d-block mb-3 text-muted">© 2018-2021</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.5.0/js/bootstrap4-toggle.min.js"></script>
+</body>
+
+</html>
