@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Maxlist Newsletter</title>
+    <meta name="description" content="Subscribe! Get latest Marketing News every Thursday">
+    <meta property="og:title" content="Maxlist Newsletter" />
+    <meta property="og:image" content="https://article.maxlist.xyz/static/img/max.png" />
+    <meta property="og:description" content="Maxlist Newsletter" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:url" content="https://article.maxlist.xyz/">
+    <link rel="canonical" href="https://article.maxlist.xyz/">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:black" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.5.0/css/bootstrap4-toggle.min.css"
+        rel="stylesheet">
+
+    <link rel="shortcut icon" href="/static/img/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="/static/css/layout.css">
+
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WJLH4B2');
+    </script>
+
+</head>
+
+<body class='mode dark'>
+
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJLH4B2" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+
+    <script>
+        (function () {
+            function setCookie(cname, cvalue, exdays) {
+                var d = new Date();
+                var exdays = exdays ? exdays : 7; // 預設 7 天
+                d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+                var expires = 'expires=' + d.toGMTString();
+                var path = 'path=/';
+                document.cookie = cname + '=' + cvalue + '; ' + expires + '; ' + path;
+            }
+
+            function getCookie(cname) {
+                var name = cname + '=';
+                var ca = document.cookie.split(';');
+                for (var i = 0; i < ca.length; i++) {
+                    var c = ca[i].trim();
+                    if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+                }
+                return '';
+            }
+
+            function set_mode(mode_type) {
+                setCookie('mode_type', mode_type, 30)
+                $(document.body).removeClass().addClass(mode_type)
+                if (mode_type == 'dark') {
+                    $('#mode_type_id span').text("Light Mode")
+                } else {
+                    $('#mode_type_id span').text("Dark Mode")
+                }
+            }
+
+            var setting_type = function () {
+                let mode_type = getCookie('mode_type');
+
+                $(document.body).removeClass().addClass(mode_type)
+                $(document).ready(function () {
+                    if (mode_type == 'light') {
+                        set_mode('light')
+                    } else {
+                        set_mode('dark')
+                    }
+                })
+            }();
+
+            $('body').on('click', '#mode_type_id', function () {
+                let mode_type = getCookie('mode_type');
+                if (mode_type == 'light') {
+                    set_mode('dark')
+                } else {
+                    set_mode('light')
+                }
+            })
+        })()
+    </script>
+
+    <nav class="navbar sticky-top navbar-transparent navbar-expand-lg">
+        <div class="mt-2 my-2 my-lg-0 ml-auto">
+            <button class="badge badge-sm badge-light mr-1" id="mode_type_id" type="button"><i class="material-icons"
+                    style="font-size: 12px"></i> <span></span></button>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <div class="col-12 pb-5 pt-3">
+                <div class='row'>
+                    <div class="col-sm-3 col-md-4 col-lg-5 d-none d-sm-block">
+                        <div style="float:right">
+                            <a href="/">
+                                <img src="/static/img/max.png"
+                                    style="margin-bottom:0;width:4.2rem;height:4.2rem;border-radius:50%;">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-9 col-md-8 col-lg-7 d-none d-sm-block">
+                        <h1>
+                            <a href='/' style="box-shadow:none;text-decoration:none;color:var(--textTitle)">
+                                Maxlist
+                            </a>
+                        </h1>
+                        <small>Marketing, Data and Python</small>
+                    </div>
+                </div>
+                <div class="col-12 d-sm-none">
+                    <div class='row'>
+                        <div class="col-12" style="text-align:center;">
+                            <h1 style="font-family:Montserrat, sans-serif;font-size:2.25rem;">
+                                <a href='//' style="box-shadow:none;text-decoration:none;color:var(--textTitle)">
+                                    Maxlist
+                                </a>
+                            </h1>
+                        </div>
+                        <div class="col-12" style="text-align:center;">
+                            <small>Marketing, Data and Python</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id='subscribe_email_area'>
+        <div class='container'>
+            <div class='col-12'>
+                <div class='row justify-content-center no-gutters  pb-5'>
+                    <div class='col-sm-12 col-md-9' style='text-align:center;'>
+                        <p>
+                            Send Newsletter every Thursday 🚀<br>
+                            Get latest Marketing News 🦖<br>
+                            Subscribe Now!<br>
+                        </p>
+                    </div>
+                </div>
+                <div class='row justify-content-center  pb-5'>
+                    <div class='col-12 col-sm-12 col-md-10 col-lg-8 col-xl-8'>
+                        <form onsubmit='subscribe(event)'>
+                            <div class='form-group row no-gutters justify-content-center'>
+                                <div class='col-8 col-md-10'>
+                                    <input type='email' id='email' name='email' class='form-control form-control'
+                                        placeholder='max@email.com' required>
+                                </div>
+                                <div>
+                                    <button type='submit' id='send_email' class='btn btn-dark btn'>send<span
+                                            id='str'></span></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class='col-sm-12 col-md-9' style='text-align:center'>
+                        <p>
+                            <span id='subscribe_count'></span> users already subscribe
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id='tracking_info_area' class='pt-4 my-md-4 pt-md-5'>
+        <div class='container'>
+            <div class='col-12'>
+                <div class='row justify-content-center py-4 my-3 mb-5' style='text-align:center;'>
+                    <h2 class='col-12 pb-3 mb-3'>
+                        Tracking Information</h2>
+                    <p> Crawler tracking news everyday</p>
+                </div>
+                <div id='article_list' class='row justify-content-center' style='text-align:center;'>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id='newsletter_area' class='pt-4'>
+        <div class='container'>
+            <div class='col-12'>
+                <div class='row justify-content-center' style='text-align:center;'>
+                    <h2 class='col-12 py-4 my-3'>Newsletter
+                    </h2>
+                </div>
+            </div>
+            <article id='article_data' class='pb-3'>
+            </article>
+        </div>
+    </section>
+
+    <script>
+        function subscribe(event) {
+
+            const data = {
+                email: document.getElementById('email').value
+            }
+            event.preventDefault()
+
+            $('#send_email').attr('disabled', true);
+            window.setTimeout(setDisabled, 30000);
+            setstr(30);
+
+            $.ajax({
+                type: 'POST',
+                datatype: "application/json",
+                url: 'https://us-central1-article-maxlist.cloudfunctions.net/send-submit-mail',
+                data: {
+                    email: document.getElementById('email').value
+                },
+                success: function (data) {
+                    console.log(data);
+                    if (data == 'already') {
+                        document.getElementById('email').value = '';
+                        Swal.fire({
+                            title: "Response",
+                            text: "This Email address has already subscribed",
+                            type: 'error'
+                        });
+                    } else {
+                        document.getElementById('email').value = '';
+                        Swal.fire({
+                            title: "Response",
+                            text: "We have sent an email with a confirmation link to your email address. Please allow 1-2 minutes for this message to arrive.",
+                            type: 'success'
+                        });
+                    }
+                },
+                error: function (xhr, textStatus, error) {
+                    console.log(xhr.statusText);
+                    console.log(textStatus);
+                    console.log(error);
+                    Swal.fire({
+                        title: "Please contact Administrator!",
+                        text: error,
+                        type: 'error'
+                    });
+                }
+            })
+        }
+
+        function setDisabled() {
+            document.getElementById('send_email').disabled = false;
+        }
+
+        function setstr(s) {
+            document.getElementById('str').innerHTML = s;
+            s -= 1;
+            if (s >= 0) {
+                setTimeout(setstr, 1000, s);
+            } else {
+                document.getElementById('str').innerHTML = '';
+            }
+        }
+    </script>
+    <script>
+        function render_trackinfo_html(data) {
+            var html = ''
+            for (tag in data) {
+                html += create_trackinfo_category_html(tag)
+                for (var j = 0; j < data[tag]['website'].length; j++) {
+                    html += create_trackinfo_items_html(data[tag]['website'][j])
+                }
+                html += `</ul></div>`
+            }
+            return html
+        }
+
+        function create_trackinfo_category_html(data) {
+            return `<div class=' col-6 col-md-4 mt-3 mb-3 justify-content-center'> 
+        <h3> ${data}</h3> 
+        <ul class = 'list-unstyled text-small'>`
+        }
+
+        function create_trackinfo_items_html(item) {
+            return `<li><a class='text-muted' target='_blank' href='${item['website_link']}'>${item['website_name']}</a></li>`
+        }
+
+        function render_article_html(data) {
+            var html = ''
+            for (tag in data) {
+                html += create_article_category_html(tag)
+                for (var j = 0; j < data[tag]['article'].length; j++) {
+                    html += create_article_items_html(data[tag]['article'][j])
+                }
+            }
+            return html
+        }
+
+        function create_article_category_html(data) {
+            return `
+                <div class='row justify-content-center py-4 my-3' style='text-align:center;'>
+                    <h3 class='col-12'>
+                        Topic : ${data}</h3>
+                </div>
+            `
+        }
+
+        function create_article_items_html(item) {
+            return `
+            <div class='row mb-3 pb-4 justify-content-center'>
+                <div class='col-sm-12 col-md-8'>
+                    <div class='article list'>
+                        <h5 class='badge badge-pill badge-danger'>${item['website_name']}</h5>
+                        <h5 class='badge badge-pill badge-info'> ${item['time']} </h5>
+                        <h3>
+                            <a class='article' target='_blank' href='${item['info_link']}'>
+                                ${item['info_title']} </a>
+                        </h3>
+                        <p>${item['info_description']}</p>
+                    </div>
+                    <br>
+                </div>
+            </div>
+            `
+        }
+
+        (function () {
+            const p = [];
+
+            //Info block
+            p.push(
+                $.ajax({
+                    type: 'GET',
+                    datatype: "application/json",
+                    url: 'https://us-central1-article-maxlist.cloudfunctions.net/get-tag-list',
+                    success: function (data) {
+                        var track_info_html = render_trackinfo_html(data)
+                        $('#article_list').append(track_info_html)
+                    },
+                })
+            );
+
+            //Newsletter block
+            p.push(
+                $.ajax({
+                    type: 'GET',
+                    datatype: "application/json",
+                    url: 'https://us-central1-article-maxlist.cloudfunctions.net/get-articles',
+                    success: function (data) {
+                        var track_info_html = render_article_html(data)
+                        $('#article_data').append(track_info_html)
+                    }
+                })
+            );
+
+            //Newsletter subscriber block
+            p.push(
+                $.ajax({
+                    type: 'GET',
+                    url: 'https://us-central1-article-maxlist.cloudfunctions.net/get-subscriber-count',
+                    success: function (data) {
+                        $('#subscribe_count').append(data)
+                    }
+                })
+            );
+
+            Promise.all(p).then(values => {
+                console.log(values);
+            });
+        })()
+    </script>
+    <footer>
+        <div class="container">
+
+            <div class="row pt-5 pb-4">
+                <div class="col-6 col-md" style="text-align:center;">
+                    <h3>About</h3>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="/">Made with ☕ by Max</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md" style="text-align:center;">
+                    <h3>Explore</h3>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" target="_blank" href="https://maxlist.xyz/">Blog</a></li>
+                        <li><a class="text-muted" target="_blank"
+                                href="https://www.facebook.com/profile.php?id=100002148309560">Facebook</a></li>
+                        <li><a class="text-muted" target="_blank" href="https://github.com/hsuanchi">GitHub</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md" style="text-align:center;">
+                    <img class="mb-2" src="/static/img/max.png" alt="max_icon" width="24" height="24">
+                    <small class="d-block mb-3 text-muted">© since 2018</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
