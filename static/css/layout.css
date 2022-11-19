@@ -29,7 +29,7 @@ p {
     margin-bottom: 0.4375rem;
 }
 
-/* 深色模式 */
+/* Dark Mode */
 .dark {
     background: #282c35;
 }
@@ -57,7 +57,7 @@ p {
     background-color: #2c313e;
 }
 
-/* 淺色模式 */
+/* Light Mode */
 body {
     background: white;
 }
