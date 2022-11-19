@@ -57,6 +57,10 @@ p {
     background-color: #2c313e;
 }
 
+.dark #send_email {
+    background-color: #dc3545;
+}
+
 /* Light Mode */
 body {
     background: white;
