@@ -204,7 +204,51 @@
                         Tracking Information</h2>
                     <p> Crawler tracking news everyday</p>
                 </div>
-                <div id='article_list' class='row justify-content-center' style='text-align:center;'>
+
+                <div id="article_list" class="row justify-content-center" style="text-align:center;">
+                    <div class=" col-6 col-md-4 mt-3 mb-3 justify-content-center">
+                        <h3> Google Product updates</h3>
+                        <ul class="list-unstyled text-small">
+                            <li><a class="text-muted" target="_blank"
+                                    href="https://support.google.com/google-ads/announcements/9048695">Google Ads
+                                    Help</a></li>
+                            <li><a class="text-muted" target="_blank"
+                                    href="https://support.google.com/analytics/answer/9164320?hl=en">Google Analytics
+                                    Help</a></li>
+                            <li><a class="text-muted" target="_blank"
+                                    href="https://support.google.com/tagmanager/answer/4620708">Google Tag Manger
+                                    Help</a></li>
+                            <li><a class="text-muted" target="_blank"
+                                    href="https://support.google.com/optimize/announcements/9176329">Optimize Resource
+                                    Hub</a></li>
+                            <li><a class="text-muted" target="_blank"
+                                    href="https://support.google.com/merchants/announcements/6192467">Merchant
+                                    Center
+                                    Help</a></li>
+                            <li><a class="text-muted" target="_blank"
+                                    href="https://support.google.com/datastudio/answer/11521624?hl=en&amp;ref_topic=6267740">Looker
+                                    Studio Help</a></li>
+                        </ul>
+                    </div>
+                    <div class=" col-6 col-md-4 mt-3 mb-3 justify-content-center">
+                        <h3> Google Tag Manager</h3>
+                        <ul class="list-unstyled text-small">
+                            <li><a class="text-muted" target="_blank" href="https://www.simoahava.com/">Simo Ahava's
+                                    blog</a></li>
+                        </ul>
+                    </div>
+                    <div class=" col-6 col-md-4 mt-3 mb-3 justify-content-center">
+                        <h3> SEO Announce</h3>
+                        <ul class="list-unstyled text-small">
+                            <li><a class="text-muted" target="_blank" href="https://blogs.bing.com/webmaster/">Bing
+                                    Webmaster</a></li>
+                            <li><a class="text-muted" target="_blank" href="https://blogs.bing.com/search/">Bing
+                                    Search</a></li>
+                            <li><a class="text-muted" target="_blank"
+                                    href="https://support.google.com/websearch/announcements/9587893">Google Search
+                                    Help</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -351,20 +395,6 @@
 
         (function () {
             const p = [];
-
-            //Info block
-            p.push(
-                $.ajax({
-                    type: 'GET',
-                    datatype: "application/json",
-                    url: 'https://us-central1-article-maxlist.cloudfunctions.net/get-tag-list',
-                    success: function (data) {
-                        var track_info_html = render_trackinfo_html(data)
-                        $('#article_list').append(track_info_html)
-                    },
-                })
-            );
-
             //Newsletter block
             p.push(
                 $.ajax({
