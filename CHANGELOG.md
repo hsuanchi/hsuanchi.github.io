@@ -1,5 +1,9 @@
 ## Unreleased
 
+### Refactor
+
+- **index.html**: replace the tracker info api to static html
+
 ### Feat
 
 - **index.html**: addjsut the submit button color

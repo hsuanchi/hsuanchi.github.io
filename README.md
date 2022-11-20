@@ -2,9 +2,15 @@
 
 - [x] Fix the footer
 - [x] Remove the tracker info api
-- [ ] Remove the jQuery
+- [x] Add data more 60 days
+    - [x] cloud function - add cache
+    - [x] cloud function - add days
+- [ ] Review the crawler
+    - [ ] review all website
+    - [ ] error msg
+
 - [ ] Adjust the dark/light mode icone
-- [ ] Add read more 14/30/60 days 
+- [ ] Remove the jQuery
 - [ ] Add the tailwind
 
 - [ ] Folder Structure
