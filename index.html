@@ -400,7 +400,8 @@
                 $.ajax({
                     type: 'GET',
                     datatype: "application/json",
-                    url: 'https://us-central1-article-maxlist.cloudfunctions.net/get-articles',
+                    //url: 'https://us-central1-article-maxlist.cloudfunctions.net/get-articles',
+                    url: '/static/article.json',
                     success: function (data) {
                         var track_info_html = render_article_html(data)
                         $('#article_data').append(track_info_html)
