@@ -5,9 +5,9 @@
 - [x] Add data more 60 days
     - [x] cloud function - add cache
     - [x] cloud function - add days
-- [ ] Review the crawler
-    - [ ] review all website
-    - [ ] error msg
+- [x] Review the crawler
+    - [x] review all website
+    - [x] error msg
 
 - [ ] Adjust the dark/light mode icone
 - [ ] Remove the jQuery
