@@ -1,9 +1,14 @@
 ## Todo
-- [ ] Add description from OpenAI
-- [ ] Fix none data will not send newsletter 
+- [ ] Add chinese version
+* BE
+    * add chinese database
+    * add transaction in crawler CF
+* FE 
+    * add export chinese-json github action
+    * add chinese html
+    * add language header
 
 ### Nice to have
-- [ ] Add chinese version
 - [ ] Adjust the dark/light mode icone
 - [ ] Remove the jQuery
 - [ ] Add the tailwind
@@ -13,6 +18,7 @@
     * doc Folder: The documentation folder
 
 ## Milestone
+- [x] Fix none data will not send newsletter 
 - [x] Fix the footer
 - [x] Remove the tracker info api
 - [x] Add data more 60 days
