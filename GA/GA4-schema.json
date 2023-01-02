@@ -1,0 +1,688 @@
+{
+    "parent": "null",
+    "name": "events_",
+    "edge_name": "null",
+    "children": [
+        {
+            "parent": "events_",
+            "name": "event_date",
+            "edge_name": "event_date",
+            "children": []
+        },
+        {
+            "parent": "events_",
+            "name": "event_timestamp",
+            "edge_name": "event_timestamp",
+            "children": []
+        },
+        {
+            "parent": "events_",
+            "name": "event_name",
+            "edge_name": "event_name",
+            "children": []
+        },
+        {
+            "parent": "events_",
+            "name": "event_params",
+            "edge_name": "event_params",
+            "children": [
+                {
+                    "parent": "event_params",
+                    "name": "key",
+                    "edge_name": "key",
+                    "children": []
+                },
+                {
+                    "parent": "event_params",
+                    "name": "value",
+                    "edge_name": "value",
+                    "children": [
+                        {
+                            "parent": "value",
+                            "name": "string_value",
+                            "edge_name": "string_value",
+                            "children": []
+                        },
+                        {
+                            "parent": "value",
+                            "name": "int_value",
+                            "edge_name": "int_value",
+                            "children": []
+                        },
+                        {
+                            "parent": "value",
+                            "name": "float_value",
+                            "edge_name": "float_value",
+                            "children": []
+                        },
+                        {
+                            "parent": "value",
+                            "name": "double_value",
+                            "edge_name": "double_value",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "parent": "events_",
+            "name": "event_previous_timestamp",
+            "edge_name": "event_previous_timestamp",
+            "children": []
+        },
+        {
+            "parent": "events_",
+            "name": "event_value_in_usd",
+            "edge_name": "event_value_in_usd",
+            "children": []
+        },
+        {
+            "parent": "events_",
+            "name": "event_bundle_sequence_id",
+            "edge_name": "event_bundle_sequence_id",
+            "children": []
+        },
+        {
+            "parent": "events_",
+            "name": "event_server_timestamp_offset",
+            "edge_name": "event_server_timestamp_offset",
+            "children": []
+        },
+        {
+            "parent": "events_",
+            "name": "user_id",
+            "edge_name": "user_id",
+            "children": []
+        },
+        {
+            "parent": "events_",
+            "name": "user_pseudo_id",
+            "edge_name": "user_pseudo_id",
+            "children": []
+        },
+        {
+            "parent": "events_",
+            "name": "privacy_info",
+            "edge_name": "privacy_info",
+            "children": [
+                {
+                    "parent": "privacy_info",
+                    "name": "analytics_storage",
+                    "edge_name": "analytics_storage",
+                    "children": []
+                },
+                {
+                    "parent": "privacy_info",
+                    "name": "ads_storage",
+                    "edge_name": "ads_storage",
+                    "children": []
+                },
+                {
+                    "parent": "privacy_info",
+                    "name": "uses_transient_token",
+                    "edge_name": "uses_transient_token",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "parent": "events_",
+            "name": "user_properties",
+            "edge_name": "user_properties",
+            "children": [
+                {
+                    "parent": "user_properties",
+                    "name": "key",
+                    "edge_name": "key",
+                    "children": []
+                },
+                {
+                    "parent": "user_properties",
+                    "name": "value",
+                    "edge_name": "value",
+                    "children": [
+                        {
+                            "parent": "value",
+                            "name": "string_value",
+                            "edge_name": "string_value",
+                            "children": []
+                        },
+                        {
+                            "parent": "value",
+                            "name": "int_value",
+                            "edge_name": "int_value",
+                            "children": []
+                        },
+                        {
+                            "parent": "value",
+                            "name": "float_value",
+                            "edge_name": "float_value",
+                            "children": []
+                        },
+                        {
+                            "parent": "value",
+                            "name": "double_value",
+                            "edge_name": "double_value",
+                            "children": []
+                        },
+                        {
+                            "parent": "value",
+                            "name": "set_timestamp_micros",
+                            "edge_name": "set_timestamp_micros",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "parent": "events_",
+            "name": "user_first_touch_timestamp",
+            "edge_name": "user_first_touch_timestamp",
+            "children": []
+        },
+        {
+            "parent": "events_",
+            "name": "user_ltv",
+            "edge_name": "user_ltv",
+            "children": [
+                {
+                    "parent": "user_ltv",
+                    "name": "revenue",
+                    "edge_name": "revenue",
+                    "children": []
+                },
+                {
+                    "parent": "user_ltv",
+                    "name": "currency",
+                    "edge_name": "currency",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "parent": "events_",
+            "name": "device",
+            "edge_name": "device",
+            "children": [
+                {
+                    "parent": "device",
+                    "name": "category",
+                    "edge_name": "category",
+                    "children": []
+                },
+                {
+                    "parent": "device",
+                    "name": "mobile_brand_name",
+                    "edge_name": "mobile_brand_name",
+                    "children": []
+                },
+                {
+                    "parent": "device",
+                    "name": "mobile_model_name",
+                    "edge_name": "mobile_model_name",
+                    "children": []
+                },
+                {
+                    "parent": "device",
+                    "name": "mobile_marketing_name",
+                    "edge_name": "mobile_marketing_name",
+                    "children": []
+                },
+                {
+                    "parent": "device",
+                    "name": "mobile_os_hardware_model",
+                    "edge_name": "mobile_os_hardware_model",
+                    "children": []
+                },
+                {
+                    "parent": "device",
+                    "name": "operating_system",
+                    "edge_name": "operating_system",
+                    "children": []
+                },
+                {
+                    "parent": "device",
+                    "name": "operating_system_version",
+                    "edge_name": "operating_system_version",
+                    "children": []
+                },
+                {
+                    "parent": "device",
+                    "name": "vendor_id",
+                    "edge_name": "vendor_id",
+                    "children": []
+                },
+                {
+                    "parent": "device",
+                    "name": "advertising_id",
+                    "edge_name": "advertising_id",
+                    "children": []
+                },
+                {
+                    "parent": "device",
+                    "name": "language",
+                    "edge_name": "language",
+                    "children": []
+                },
+                {
+                    "parent": "device",
+                    "name": "is_limited_ad_tracking",
+                    "edge_name": "is_limited_ad_tracking",
+                    "children": []
+                },
+                {
+                    "parent": "device",
+                    "name": "time_zone_offset_seconds",
+                    "edge_name": "time_zone_offset_seconds",
+                    "children": []
+                },
+                {
+                    "parent": "device",
+                    "name": "browser",
+                    "edge_name": "browser",
+                    "children": []
+                },
+                {
+                    "parent": "device",
+                    "name": "browser_version",
+                    "edge_name": "browser_version",
+                    "children": []
+                },
+                {
+                    "parent": "device",
+                    "name": "web_info",
+                    "edge_name": "web_info",
+                    "children": [
+                        {
+                            "parent": "web_info",
+                            "name": "browser",
+                            "edge_name": "browser",
+                            "children": []
+                        },
+                        {
+                            "parent": "web_info",
+                            "name": "browser_version",
+                            "edge_name": "browser_version",
+                            "children": []
+                        },
+                        {
+                            "parent": "web_info",
+                            "name": "hostname",
+                            "edge_name": "hostname",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "parent": "events_",
+            "name": "geo",
+            "edge_name": "geo",
+            "children": [
+                {
+                    "parent": "geo",
+                    "name": "continent",
+                    "edge_name": "continent",
+                    "children": []
+                },
+                {
+                    "parent": "geo",
+                    "name": "country",
+                    "edge_name": "country",
+                    "children": []
+                },
+                {
+                    "parent": "geo",
+                    "name": "region",
+                    "edge_name": "region",
+                    "children": []
+                },
+                {
+                    "parent": "geo",
+                    "name": "city",
+                    "edge_name": "city",
+                    "children": []
+                },
+                {
+                    "parent": "geo",
+                    "name": "sub_continent",
+                    "edge_name": "sub_continent",
+                    "children": []
+                },
+                {
+                    "parent": "geo",
+                    "name": "metro",
+                    "edge_name": "metro",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "parent": "events_",
+            "name": "app_info",
+            "edge_name": "app_info",
+            "children": [
+                {
+                    "parent": "app_info",
+                    "name": "id",
+                    "edge_name": "id",
+                    "children": []
+                },
+                {
+                    "parent": "app_info",
+                    "name": "version",
+                    "edge_name": "version",
+                    "children": []
+                },
+                {
+                    "parent": "app_info",
+                    "name": "install_store",
+                    "edge_name": "install_store",
+                    "children": []
+                },
+                {
+                    "parent": "app_info",
+                    "name": "firebase_app_id",
+                    "edge_name": "firebase_app_id",
+                    "children": []
+                },
+                {
+                    "parent": "app_info",
+                    "name": "install_source",
+                    "edge_name": "install_source",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "parent": "events_",
+            "name": "traffic_source",
+            "edge_name": "traffic_source",
+            "children": [
+                {
+                    "parent": "traffic_source",
+                    "name": "name",
+                    "edge_name": "name",
+                    "children": []
+                },
+                {
+                    "parent": "traffic_source",
+                    "name": "medium",
+                    "edge_name": "medium",
+                    "children": []
+                },
+                {
+                    "parent": "traffic_source",
+                    "name": "source",
+                    "edge_name": "source",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "parent": "events_",
+            "name": "stream_id",
+            "edge_name": "stream_id",
+            "children": []
+        },
+        {
+            "parent": "events_",
+            "name": "platform",
+            "edge_name": "platform",
+            "children": []
+        },
+        {
+            "parent": "events_",
+            "name": "event_dimensions",
+            "edge_name": "event_dimensions",
+            "children": [
+                {
+                    "parent": "event_dimensions",
+                    "name": "hostname",
+                    "edge_name": "hostname",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "parent": "events_",
+            "name": "ecommerce",
+            "edge_name": "ecommerce",
+            "children": [
+                {
+                    "parent": "ecommerce",
+                    "name": "total_item_quantity",
+                    "edge_name": "total_item_quantity",
+                    "children": []
+                },
+                {
+                    "parent": "ecommerce",
+                    "name": "purchase_revenue_in_usd",
+                    "edge_name": "purchase_revenue_in_usd",
+                    "children": []
+                },
+                {
+                    "parent": "ecommerce",
+                    "name": "purchase_revenue",
+                    "edge_name": "purchase_revenue",
+                    "children": []
+                },
+                {
+                    "parent": "ecommerce",
+                    "name": "refund_value_in_usd",
+                    "edge_name": "refund_value_in_usd",
+                    "children": []
+                },
+                {
+                    "parent": "ecommerce",
+                    "name": "refund_value",
+                    "edge_name": "refund_value",
+                    "children": []
+                },
+                {
+                    "parent": "ecommerce",
+                    "name": "shipping_value_in_usd",
+                    "edge_name": "shipping_value_in_usd",
+                    "children": []
+                },
+                {
+                    "parent": "ecommerce",
+                    "name": "shipping_value",
+                    "edge_name": "shipping_value",
+                    "children": []
+                },
+                {
+                    "parent": "ecommerce",
+                    "name": "tax_value_in_usd",
+                    "edge_name": "tax_value_in_usd",
+                    "children": []
+                },
+                {
+                    "parent": "ecommerce",
+                    "name": "tax_value",
+                    "edge_name": "tax_value",
+                    "children": []
+                },
+                {
+                    "parent": "ecommerce",
+                    "name": "unique_items",
+                    "edge_name": "unique_items",
+                    "children": []
+                },
+                {
+                    "parent": "ecommerce",
+                    "name": "transaction_id",
+                    "edge_name": "transaction_id",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "parent": "events_",
+            "name": "items",
+            "edge_name": "items",
+            "children": [
+                {
+                    "parent": "items",
+                    "name": "item_id",
+                    "edge_name": "item_id",
+                    "children": []
+                },
+                {
+                    "parent": "items",
+                    "name": "item_name",
+                    "edge_name": "item_name",
+                    "children": []
+                },
+                {
+                    "parent": "items",
+                    "name": "item_brand",
+                    "edge_name": "item_brand",
+                    "children": []
+                },
+                {
+                    "parent": "items",
+                    "name": "item_variant",
+                    "edge_name": "item_variant",
+                    "children": []
+                },
+                {
+                    "parent": "items",
+                    "name": "item_category",
+                    "edge_name": "item_category",
+                    "children": []
+                },
+                {
+                    "parent": "items",
+                    "name": "item_category2",
+                    "edge_name": "item_category2",
+                    "children": []
+                },
+                {
+                    "parent": "items",
+                    "name": "item_category3",
+                    "edge_name": "item_category3",
+                    "children": []
+                },
+                {
+                    "parent": "items",
+                    "name": "item_category4",
+                    "edge_name": "item_category4",
+                    "children": []
+                },
+                {
+                    "parent": "items",
+                    "name": "item_category5",
+                    "edge_name": "item_category5",
+                    "children": []
+                },
+                {
+                    "parent": "items",
+                    "name": "price_in_usd",
+                    "edge_name": "price_in_usd",
+                    "children": []
+                },
+                {
+                    "parent": "items",
+                    "name": "price",
+                    "edge_name": "price",
+                    "children": []
+                },
+                {
+                    "parent": "items",
+                    "name": "quantity",
+                    "edge_name": "quantity",
+                    "children": []
+                },
+                {
+                    "parent": "items",
+                    "name": "item_revenue_in_usd",
+                    "edge_name": "item_revenue_in_usd",
+                    "children": []
+                },
+                {
+                    "parent": "items",
+                    "name": "item_revenue",
+                    "edge_name": "item_revenue",
+                    "children": []
+                },
+                {
+                    "parent": "items",
+                    "name": "item_refund_in_usd",
+                    "edge_name": "item_refund_in_usd",
+                    "children": []
+                },
+                {
+                    "parent": "items",
+                    "name": "item_refund",
+                    "edge_name": "item_refund",
+                    "children": []
+                },
+                {
+                    "parent": "items",
+                    "name": "coupon",
+                    "edge_name": "coupon",
+                    "children": []
+                },
+                {
+                    "parent": "items",
+                    "name": "affiliation",
+                    "edge_name": "affiliation",
+                    "children": []
+                },
+                {
+                    "parent": "items",
+                    "name": "location_id",
+                    "edge_name": "location_id",
+                    "children": []
+                },
+                {
+                    "parent": "items",
+                    "name": "item_list_id",
+                    "edge_name": "item_list_id",
+                    "children": []
+                },
+                {
+                    "parent": "items",
+                    "name": "item_list_name",
+                    "edge_name": "item_list_name",
+                    "children": []
+                },
+                {
+                    "parent": "items",
+                    "name": "item_list_index",
+                    "edge_name": "item_list_index",
+                    "children": []
+                },
+                {
+                    "parent": "items",
+                    "name": "promotion_id",
+                    "edge_name": "promotion_id",
+                    "children": []
+                },
+                {
+                    "parent": "items",
+                    "name": "promotion_name",
+                    "edge_name": "promotion_name",
+                    "children": []
+                },
+                {
+                    "parent": "items",
+                    "name": "creative_name",
+                    "edge_name": "creative_name",
+                    "children": []
+                },
+                {
+                    "parent": "items",
+                    "name": "creative_slot",
+                    "edge_name": "creative_slot",
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "_children": []
+}
