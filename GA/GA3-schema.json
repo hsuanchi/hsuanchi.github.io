@@ -1,0 +1,2093 @@
+{
+    "parent": "null",
+    "name": "events_",
+    "edge_name": "null",
+    "children": [
+        {
+            "parent": "events_",
+            "name": "visitorId",
+            "edge_name": "visitorId",
+            "children": []
+        },
+        {
+            "parent": "events_",
+            "name": "visitNumber",
+            "edge_name": "visitNumber",
+            "children": []
+        },
+        {
+            "parent": "events_",
+            "name": "visitId",
+            "edge_name": "visitId",
+            "children": []
+        },
+        {
+            "parent": "events_",
+            "name": "visitStartTime",
+            "edge_name": "visitStartTime",
+            "children": []
+        },
+        {
+            "parent": "events_",
+            "name": "date",
+            "edge_name": "date",
+            "children": []
+        },
+        {
+            "parent": "events_",
+            "name": "totals",
+            "edge_name": "totals",
+            "children": [
+                {
+                    "parent": "totals",
+                    "name": "visits",
+                    "edge_name": "visits",
+                    "children": []
+                },
+                {
+                    "parent": "totals",
+                    "name": "hits",
+                    "edge_name": "hits",
+                    "children": []
+                },
+                {
+                    "parent": "totals",
+                    "name": "pageviews",
+                    "edge_name": "pageviews",
+                    "children": []
+                },
+                {
+                    "parent": "totals",
+                    "name": "timeOnSite",
+                    "edge_name": "timeOnSite",
+                    "children": []
+                },
+                {
+                    "parent": "totals",
+                    "name": "bounces",
+                    "edge_name": "bounces",
+                    "children": []
+                },
+                {
+                    "parent": "totals",
+                    "name": "transactions",
+                    "edge_name": "transactions",
+                    "children": []
+                },
+                {
+                    "parent": "totals",
+                    "name": "transactionRevenue",
+                    "edge_name": "transactionRevenue",
+                    "children": []
+                },
+                {
+                    "parent": "totals",
+                    "name": "newVisits",
+                    "edge_name": "newVisits",
+                    "children": []
+                },
+                {
+                    "parent": "totals",
+                    "name": "screenviews",
+                    "edge_name": "screenviews",
+                    "children": []
+                },
+                {
+                    "parent": "totals",
+                    "name": "uniqueScreenviews",
+                    "edge_name": "uniqueScreenviews",
+                    "children": []
+                },
+                {
+                    "parent": "totals",
+                    "name": "timeOnScreen",
+                    "edge_name": "timeOnScreen",
+                    "children": []
+                },
+                {
+                    "parent": "totals",
+                    "name": "totalTransactionRevenue",
+                    "edge_name": "totalTransactionRevenue",
+                    "children": []
+                },
+                {
+                    "parent": "totals",
+                    "name": "sessionQualityDim",
+                    "edge_name": "sessionQualityDim",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "parent": "events_",
+            "name": "trafficSource",
+            "edge_name": "trafficSource",
+            "children": [
+                {
+                    "parent": "trafficSource",
+                    "name": "referralPath",
+                    "edge_name": "referralPath",
+                    "children": []
+                },
+                {
+                    "parent": "trafficSource",
+                    "name": "campaign",
+                    "edge_name": "campaign",
+                    "children": []
+                },
+                {
+                    "parent": "trafficSource",
+                    "name": "source",
+                    "edge_name": "source",
+                    "children": []
+                },
+                {
+                    "parent": "trafficSource",
+                    "name": "medium",
+                    "edge_name": "medium",
+                    "children": []
+                },
+                {
+                    "parent": "trafficSource",
+                    "name": "keyword",
+                    "edge_name": "keyword",
+                    "children": []
+                },
+                {
+                    "parent": "trafficSource",
+                    "name": "adContent",
+                    "edge_name": "adContent",
+                    "children": []
+                },
+                {
+                    "parent": "trafficSource",
+                    "name": "adwordsClickInfo",
+                    "edge_name": "adwordsClickInfo",
+                    "children": [
+                        {
+                            "parent": "adwordsClickInfo",
+                            "name": "campaignId",
+                            "edge_name": "campaignId",
+                            "children": []
+                        },
+                        {
+                            "parent": "adwordsClickInfo",
+                            "name": "adGroupId",
+                            "edge_name": "adGroupId",
+                            "children": []
+                        },
+                        {
+                            "parent": "adwordsClickInfo",
+                            "name": "creativeId",
+                            "edge_name": "creativeId",
+                            "children": []
+                        },
+                        {
+                            "parent": "adwordsClickInfo",
+                            "name": "criteriaId",
+                            "edge_name": "criteriaId",
+                            "children": []
+                        },
+                        {
+                            "parent": "adwordsClickInfo",
+                            "name": "page",
+                            "edge_name": "page",
+                            "children": []
+                        },
+                        {
+                            "parent": "adwordsClickInfo",
+                            "name": "slot",
+                            "edge_name": "slot",
+                            "children": []
+                        },
+                        {
+                            "parent": "adwordsClickInfo",
+                            "name": "criteriaParameters",
+                            "edge_name": "criteriaParameters",
+                            "children": []
+                        },
+                        {
+                            "parent": "adwordsClickInfo",
+                            "name": "gclId",
+                            "edge_name": "gclId",
+                            "children": []
+                        },
+                        {
+                            "parent": "adwordsClickInfo",
+                            "name": "customerId",
+                            "edge_name": "customerId",
+                            "children": []
+                        },
+                        {
+                            "parent": "adwordsClickInfo",
+                            "name": "adNetworkType",
+                            "edge_name": "adNetworkType",
+                            "children": []
+                        },
+                        {
+                            "parent": "adwordsClickInfo",
+                            "name": "targetingCriteria",
+                            "edge_name": "targetingCriteria",
+                            "children": [
+                                {
+                                    "parent": "targetingCriteria",
+                                    "name": "boomUserlistId",
+                                    "edge_name": "boomUserlistId",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "parent": "adwordsClickInfo",
+                            "name": "isVideoAd",
+                            "edge_name": "isVideoAd",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "parent": "trafficSource",
+                    "name": "isTrueDirect",
+                    "edge_name": "isTrueDirect",
+                    "children": []
+                },
+                {
+                    "parent": "trafficSource",
+                    "name": "campaignCode",
+                    "edge_name": "campaignCode",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "parent": "events_",
+            "name": "device",
+            "edge_name": "device",
+            "children": [
+                {
+                    "parent": "device",
+                    "name": "browser",
+                    "edge_name": "browser",
+                    "children": []
+                },
+                {
+                    "parent": "device",
+                    "name": "browserVersion",
+                    "edge_name": "browserVersion",
+                    "children": []
+                },
+                {
+                    "parent": "device",
+                    "name": "browserSize",
+                    "edge_name": "browserSize",
+                    "children": []
+                },
+                {
+                    "parent": "device",
+                    "name": "operatingSystem",
+                    "edge_name": "operatingSystem",
+                    "children": []
+                },
+                {
+                    "parent": "device",
+                    "name": "operatingSystemVersion",
+                    "edge_name": "operatingSystemVersion",
+                    "children": []
+                },
+                {
+                    "parent": "device",
+                    "name": "isMobile",
+                    "edge_name": "isMobile",
+                    "children": []
+                },
+                {
+                    "parent": "device",
+                    "name": "mobileDeviceBranding",
+                    "edge_name": "mobileDeviceBranding",
+                    "children": []
+                },
+                {
+                    "parent": "device",
+                    "name": "mobileDeviceModel",
+                    "edge_name": "mobileDeviceModel",
+                    "children": []
+                },
+                {
+                    "parent": "device",
+                    "name": "mobileInputSelector",
+                    "edge_name": "mobileInputSelector",
+                    "children": []
+                },
+                {
+                    "parent": "device",
+                    "name": "mobileDeviceInfo",
+                    "edge_name": "mobileDeviceInfo",
+                    "children": []
+                },
+                {
+                    "parent": "device",
+                    "name": "mobileDeviceMarketingName",
+                    "edge_name": "mobileDeviceMarketingName",
+                    "children": []
+                },
+                {
+                    "parent": "device",
+                    "name": "flashVersion",
+                    "edge_name": "flashVersion",
+                    "children": []
+                },
+                {
+                    "parent": "device",
+                    "name": "javaEnabled",
+                    "edge_name": "javaEnabled",
+                    "children": []
+                },
+                {
+                    "parent": "device",
+                    "name": "language",
+                    "edge_name": "language",
+                    "children": []
+                },
+                {
+                    "parent": "device",
+                    "name": "screenColors",
+                    "edge_name": "screenColors",
+                    "children": []
+                },
+                {
+                    "parent": "device",
+                    "name": "screenResolution",
+                    "edge_name": "screenResolution",
+                    "children": []
+                },
+                {
+                    "parent": "device",
+                    "name": "deviceCategory",
+                    "edge_name": "deviceCategory",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "parent": "events_",
+            "name": "geoNetwork",
+            "edge_name": "geoNetwork",
+            "children": [
+                {
+                    "parent": "geoNetwork",
+                    "name": "continent",
+                    "edge_name": "continent",
+                    "children": []
+                },
+                {
+                    "parent": "geoNetwork",
+                    "name": "subContinent",
+                    "edge_name": "subContinent",
+                    "children": []
+                },
+                {
+                    "parent": "geoNetwork",
+                    "name": "country",
+                    "edge_name": "country",
+                    "children": []
+                },
+                {
+                    "parent": "geoNetwork",
+                    "name": "region",
+                    "edge_name": "region",
+                    "children": []
+                },
+                {
+                    "parent": "geoNetwork",
+                    "name": "metro",
+                    "edge_name": "metro",
+                    "children": []
+                },
+                {
+                    "parent": "geoNetwork",
+                    "name": "city",
+                    "edge_name": "city",
+                    "children": []
+                },
+                {
+                    "parent": "geoNetwork",
+                    "name": "cityId",
+                    "edge_name": "cityId",
+                    "children": []
+                },
+                {
+                    "parent": "geoNetwork",
+                    "name": "networkDomain",
+                    "edge_name": "networkDomain",
+                    "children": []
+                },
+                {
+                    "parent": "geoNetwork",
+                    "name": "latitude",
+                    "edge_name": "latitude",
+                    "children": []
+                },
+                {
+                    "parent": "geoNetwork",
+                    "name": "longitude",
+                    "edge_name": "longitude",
+                    "children": []
+                },
+                {
+                    "parent": "geoNetwork",
+                    "name": "networkLocation",
+                    "edge_name": "networkLocation",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "parent": "events_",
+            "name": "customDimensions",
+            "edge_name": "customDimensions",
+            "children": [
+                {
+                    "parent": "customDimensions",
+                    "name": "index",
+                    "edge_name": "index",
+                    "children": []
+                },
+                {
+                    "parent": "customDimensions",
+                    "name": "value",
+                    "edge_name": "value",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "parent": "events_",
+            "name": "hits",
+            "edge_name": "hits",
+            "children": [
+                {
+                    "parent": "hits",
+                    "name": "hitNumber",
+                    "edge_name": "hitNumber",
+                    "children": []
+                },
+                {
+                    "parent": "hits",
+                    "name": "time",
+                    "edge_name": "time",
+                    "children": []
+                },
+                {
+                    "parent": "hits",
+                    "name": "hour",
+                    "edge_name": "hour",
+                    "children": []
+                },
+                {
+                    "parent": "hits",
+                    "name": "minute",
+                    "edge_name": "minute",
+                    "children": []
+                },
+                {
+                    "parent": "hits",
+                    "name": "isSecure",
+                    "edge_name": "isSecure",
+                    "children": []
+                },
+                {
+                    "parent": "hits",
+                    "name": "isInteraction",
+                    "edge_name": "isInteraction",
+                    "children": []
+                },
+                {
+                    "parent": "hits",
+                    "name": "isEntrance",
+                    "edge_name": "isEntrance",
+                    "children": []
+                },
+                {
+                    "parent": "hits",
+                    "name": "isExit",
+                    "edge_name": "isExit",
+                    "children": []
+                },
+                {
+                    "parent": "hits",
+                    "name": "referer",
+                    "edge_name": "referer",
+                    "children": []
+                },
+                {
+                    "parent": "hits",
+                    "name": "page",
+                    "edge_name": "page",
+                    "children": [
+                        {
+                            "parent": "page",
+                            "name": "pagePath",
+                            "edge_name": "pagePath",
+                            "children": []
+                        },
+                        {
+                            "parent": "page",
+                            "name": "hostname",
+                            "edge_name": "hostname",
+                            "children": []
+                        },
+                        {
+                            "parent": "page",
+                            "name": "pageTitle",
+                            "edge_name": "pageTitle",
+                            "children": []
+                        },
+                        {
+                            "parent": "page",
+                            "name": "searchKeyword",
+                            "edge_name": "searchKeyword",
+                            "children": []
+                        },
+                        {
+                            "parent": "page",
+                            "name": "searchCategory",
+                            "edge_name": "searchCategory",
+                            "children": []
+                        },
+                        {
+                            "parent": "page",
+                            "name": "pagePathLevel1",
+                            "edge_name": "pagePathLevel1",
+                            "children": []
+                        },
+                        {
+                            "parent": "page",
+                            "name": "pagePathLevel2",
+                            "edge_name": "pagePathLevel2",
+                            "children": []
+                        },
+                        {
+                            "parent": "page",
+                            "name": "pagePathLevel3",
+                            "edge_name": "pagePathLevel3",
+                            "children": []
+                        },
+                        {
+                            "parent": "page",
+                            "name": "pagePathLevel4",
+                            "edge_name": "pagePathLevel4",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "parent": "hits",
+                    "name": "transaction",
+                    "edge_name": "transaction",
+                    "children": [
+                        {
+                            "parent": "transaction",
+                            "name": "transactionId",
+                            "edge_name": "transactionId",
+                            "children": []
+                        },
+                        {
+                            "parent": "transaction",
+                            "name": "transactionRevenue",
+                            "edge_name": "transactionRevenue",
+                            "children": []
+                        },
+                        {
+                            "parent": "transaction",
+                            "name": "transactionTax",
+                            "edge_name": "transactionTax",
+                            "children": []
+                        },
+                        {
+                            "parent": "transaction",
+                            "name": "transactionShipping",
+                            "edge_name": "transactionShipping",
+                            "children": []
+                        },
+                        {
+                            "parent": "transaction",
+                            "name": "affiliation",
+                            "edge_name": "affiliation",
+                            "children": []
+                        },
+                        {
+                            "parent": "transaction",
+                            "name": "currencyCode",
+                            "edge_name": "currencyCode",
+                            "children": []
+                        },
+                        {
+                            "parent": "transaction",
+                            "name": "localTransactionRevenue",
+                            "edge_name": "localTransactionRevenue",
+                            "children": []
+                        },
+                        {
+                            "parent": "transaction",
+                            "name": "localTransactionTax",
+                            "edge_name": "localTransactionTax",
+                            "children": []
+                        },
+                        {
+                            "parent": "transaction",
+                            "name": "localTransactionShipping",
+                            "edge_name": "localTransactionShipping",
+                            "children": []
+                        },
+                        {
+                            "parent": "transaction",
+                            "name": "transactionCoupon",
+                            "edge_name": "transactionCoupon",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "parent": "hits",
+                    "name": "item",
+                    "edge_name": "item",
+                    "children": [
+                        {
+                            "parent": "item",
+                            "name": "transactionId",
+                            "edge_name": "transactionId",
+                            "children": []
+                        },
+                        {
+                            "parent": "item",
+                            "name": "productName",
+                            "edge_name": "productName",
+                            "children": []
+                        },
+                        {
+                            "parent": "item",
+                            "name": "productCategory",
+                            "edge_name": "productCategory",
+                            "children": []
+                        },
+                        {
+                            "parent": "item",
+                            "name": "productSku",
+                            "edge_name": "productSku",
+                            "children": []
+                        },
+                        {
+                            "parent": "item",
+                            "name": "itemQuantity",
+                            "edge_name": "itemQuantity",
+                            "children": []
+                        },
+                        {
+                            "parent": "item",
+                            "name": "itemRevenue",
+                            "edge_name": "itemRevenue",
+                            "children": []
+                        },
+                        {
+                            "parent": "item",
+                            "name": "currencyCode",
+                            "edge_name": "currencyCode",
+                            "children": []
+                        },
+                        {
+                            "parent": "item",
+                            "name": "localItemRevenue",
+                            "edge_name": "localItemRevenue",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "parent": "hits",
+                    "name": "contentInfo",
+                    "edge_name": "contentInfo",
+                    "children": [
+                        {
+                            "parent": "contentInfo",
+                            "name": "contentDescription",
+                            "edge_name": "contentDescription",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "parent": "hits",
+                    "name": "appInfo",
+                    "edge_name": "appInfo",
+                    "children": [
+                        {
+                            "parent": "appInfo",
+                            "name": "name",
+                            "edge_name": "name",
+                            "children": []
+                        },
+                        {
+                            "parent": "appInfo",
+                            "name": "version",
+                            "edge_name": "version",
+                            "children": []
+                        },
+                        {
+                            "parent": "appInfo",
+                            "name": "id",
+                            "edge_name": "id",
+                            "children": []
+                        },
+                        {
+                            "parent": "appInfo",
+                            "name": "installerId",
+                            "edge_name": "installerId",
+                            "children": []
+                        },
+                        {
+                            "parent": "appInfo",
+                            "name": "appInstallerId",
+                            "edge_name": "appInstallerId",
+                            "children": []
+                        },
+                        {
+                            "parent": "appInfo",
+                            "name": "appName",
+                            "edge_name": "appName",
+                            "children": []
+                        },
+                        {
+                            "parent": "appInfo",
+                            "name": "appVersion",
+                            "edge_name": "appVersion",
+                            "children": []
+                        },
+                        {
+                            "parent": "appInfo",
+                            "name": "appId",
+                            "edge_name": "appId",
+                            "children": []
+                        },
+                        {
+                            "parent": "appInfo",
+                            "name": "screenName",
+                            "edge_name": "screenName",
+                            "children": []
+                        },
+                        {
+                            "parent": "appInfo",
+                            "name": "landingScreenName",
+                            "edge_name": "landingScreenName",
+                            "children": []
+                        },
+                        {
+                            "parent": "appInfo",
+                            "name": "exitScreenName",
+                            "edge_name": "exitScreenName",
+                            "children": []
+                        },
+                        {
+                            "parent": "appInfo",
+                            "name": "screenDepth",
+                            "edge_name": "screenDepth",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "parent": "hits",
+                    "name": "exceptionInfo",
+                    "edge_name": "exceptionInfo",
+                    "children": [
+                        {
+                            "parent": "exceptionInfo",
+                            "name": "description",
+                            "edge_name": "description",
+                            "children": []
+                        },
+                        {
+                            "parent": "exceptionInfo",
+                            "name": "isFatal",
+                            "edge_name": "isFatal",
+                            "children": []
+                        },
+                        {
+                            "parent": "exceptionInfo",
+                            "name": "exceptions",
+                            "edge_name": "exceptions",
+                            "children": []
+                        },
+                        {
+                            "parent": "exceptionInfo",
+                            "name": "fatalExceptions",
+                            "edge_name": "fatalExceptions",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "parent": "hits",
+                    "name": "eventInfo",
+                    "edge_name": "eventInfo",
+                    "children": [
+                        {
+                            "parent": "eventInfo",
+                            "name": "eventCategory",
+                            "edge_name": "eventCategory",
+                            "children": []
+                        },
+                        {
+                            "parent": "eventInfo",
+                            "name": "eventAction",
+                            "edge_name": "eventAction",
+                            "children": []
+                        },
+                        {
+                            "parent": "eventInfo",
+                            "name": "eventLabel",
+                            "edge_name": "eventLabel",
+                            "children": []
+                        },
+                        {
+                            "parent": "eventInfo",
+                            "name": "eventValue",
+                            "edge_name": "eventValue",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "parent": "hits",
+                    "name": "product",
+                    "edge_name": "product",
+                    "children": [
+                        {
+                            "parent": "product",
+                            "name": "productSKU",
+                            "edge_name": "productSKU",
+                            "children": []
+                        },
+                        {
+                            "parent": "product",
+                            "name": "v2ProductName",
+                            "edge_name": "v2ProductName",
+                            "children": []
+                        },
+                        {
+                            "parent": "product",
+                            "name": "v2ProductCategory",
+                            "edge_name": "v2ProductCategory",
+                            "children": []
+                        },
+                        {
+                            "parent": "product",
+                            "name": "productVariant",
+                            "edge_name": "productVariant",
+                            "children": []
+                        },
+                        {
+                            "parent": "product",
+                            "name": "productBrand",
+                            "edge_name": "productBrand",
+                            "children": []
+                        },
+                        {
+                            "parent": "product",
+                            "name": "productRevenue",
+                            "edge_name": "productRevenue",
+                            "children": []
+                        },
+                        {
+                            "parent": "product",
+                            "name": "localProductRevenue",
+                            "edge_name": "localProductRevenue",
+                            "children": []
+                        },
+                        {
+                            "parent": "product",
+                            "name": "productPrice",
+                            "edge_name": "productPrice",
+                            "children": []
+                        },
+                        {
+                            "parent": "product",
+                            "name": "localProductPrice",
+                            "edge_name": "localProductPrice",
+                            "children": []
+                        },
+                        {
+                            "parent": "product",
+                            "name": "productQuantity",
+                            "edge_name": "productQuantity",
+                            "children": []
+                        },
+                        {
+                            "parent": "product",
+                            "name": "productRefundAmount",
+                            "edge_name": "productRefundAmount",
+                            "children": []
+                        },
+                        {
+                            "parent": "product",
+                            "name": "localProductRefundAmount",
+                            "edge_name": "localProductRefundAmount",
+                            "children": []
+                        },
+                        {
+                            "parent": "product",
+                            "name": "isImpression",
+                            "edge_name": "isImpression",
+                            "children": []
+                        },
+                        {
+                            "parent": "product",
+                            "name": "isClick",
+                            "edge_name": "isClick",
+                            "children": []
+                        },
+                        {
+                            "parent": "product",
+                            "name": "customDimensions",
+                            "edge_name": "customDimensions",
+                            "children": [
+                                {
+                                    "parent": "customDimensions",
+                                    "name": "index",
+                                    "edge_name": "index",
+                                    "children": []
+                                },
+                                {
+                                    "parent": "customDimensions",
+                                    "name": "value",
+                                    "edge_name": "value",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "parent": "product",
+                            "name": "customMetrics",
+                            "edge_name": "customMetrics",
+                            "children": [
+                                {
+                                    "parent": "customMetrics",
+                                    "name": "index",
+                                    "edge_name": "index",
+                                    "children": []
+                                },
+                                {
+                                    "parent": "customMetrics",
+                                    "name": "value",
+                                    "edge_name": "value",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "parent": "product",
+                            "name": "productListName",
+                            "edge_name": "productListName",
+                            "children": []
+                        },
+                        {
+                            "parent": "product",
+                            "name": "productListPosition",
+                            "edge_name": "productListPosition",
+                            "children": []
+                        },
+                        {
+                            "parent": "product",
+                            "name": "productCouponCode",
+                            "edge_name": "productCouponCode",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "parent": "hits",
+                    "name": "promotion",
+                    "edge_name": "promotion",
+                    "children": [
+                        {
+                            "parent": "promotion",
+                            "name": "promoId",
+                            "edge_name": "promoId",
+                            "children": []
+                        },
+                        {
+                            "parent": "promotion",
+                            "name": "promoName",
+                            "edge_name": "promoName",
+                            "children": []
+                        },
+                        {
+                            "parent": "promotion",
+                            "name": "promoCreative",
+                            "edge_name": "promoCreative",
+                            "children": []
+                        },
+                        {
+                            "parent": "promotion",
+                            "name": "promoPosition",
+                            "edge_name": "promoPosition",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "parent": "hits",
+                    "name": "promotionActionInfo",
+                    "edge_name": "promotionActionInfo",
+                    "children": [
+                        {
+                            "parent": "promotionActionInfo",
+                            "name": "promoIsView",
+                            "edge_name": "promoIsView",
+                            "children": []
+                        },
+                        {
+                            "parent": "promotionActionInfo",
+                            "name": "promoIsClick",
+                            "edge_name": "promoIsClick",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "parent": "hits",
+                    "name": "refund",
+                    "edge_name": "refund",
+                    "children": [
+                        {
+                            "parent": "refund",
+                            "name": "refundAmount",
+                            "edge_name": "refundAmount",
+                            "children": []
+                        },
+                        {
+                            "parent": "refund",
+                            "name": "localRefundAmount",
+                            "edge_name": "localRefundAmount",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "parent": "hits",
+                    "name": "eCommerceAction",
+                    "edge_name": "eCommerceAction",
+                    "children": [
+                        {
+                            "parent": "eCommerceAction",
+                            "name": "action_type",
+                            "edge_name": "action_type",
+                            "children": []
+                        },
+                        {
+                            "parent": "eCommerceAction",
+                            "name": "step",
+                            "edge_name": "step",
+                            "children": []
+                        },
+                        {
+                            "parent": "eCommerceAction",
+                            "name": "option",
+                            "edge_name": "option",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "parent": "hits",
+                    "name": "experiment",
+                    "edge_name": "experiment",
+                    "children": [
+                        {
+                            "parent": "experiment",
+                            "name": "experimentId",
+                            "edge_name": "experimentId",
+                            "children": []
+                        },
+                        {
+                            "parent": "experiment",
+                            "name": "experimentVariant",
+                            "edge_name": "experimentVariant",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "parent": "hits",
+                    "name": "publisher",
+                    "edge_name": "publisher",
+                    "children": [
+                        {
+                            "parent": "publisher",
+                            "name": "dfpClicks",
+                            "edge_name": "dfpClicks",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "dfpImpressions",
+                            "edge_name": "dfpImpressions",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "dfpMatchedQueries",
+                            "edge_name": "dfpMatchedQueries",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "dfpMeasurableImpressions",
+                            "edge_name": "dfpMeasurableImpressions",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "dfpQueries",
+                            "edge_name": "dfpQueries",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "dfpRevenueCpm",
+                            "edge_name": "dfpRevenueCpm",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "dfpRevenueCpc",
+                            "edge_name": "dfpRevenueCpc",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "dfpViewableImpressions",
+                            "edge_name": "dfpViewableImpressions",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "dfpPagesViewed",
+                            "edge_name": "dfpPagesViewed",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adsenseBackfillDfpClicks",
+                            "edge_name": "adsenseBackfillDfpClicks",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adsenseBackfillDfpImpressions",
+                            "edge_name": "adsenseBackfillDfpImpressions",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adsenseBackfillDfpMatchedQueries",
+                            "edge_name": "adsenseBackfillDfpMatchedQueries",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adsenseBackfillDfpMeasurableImpressions",
+                            "edge_name": "adsenseBackfillDfpMeasurableImpressions",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adsenseBackfillDfpQueries",
+                            "edge_name": "adsenseBackfillDfpQueries",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adsenseBackfillDfpRevenueCpm",
+                            "edge_name": "adsenseBackfillDfpRevenueCpm",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adsenseBackfillDfpRevenueCpc",
+                            "edge_name": "adsenseBackfillDfpRevenueCpc",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adsenseBackfillDfpViewableImpressions",
+                            "edge_name": "adsenseBackfillDfpViewableImpressions",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adsenseBackfillDfpPagesViewed",
+                            "edge_name": "adsenseBackfillDfpPagesViewed",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adxBackfillDfpClicks",
+                            "edge_name": "adxBackfillDfpClicks",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adxBackfillDfpImpressions",
+                            "edge_name": "adxBackfillDfpImpressions",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adxBackfillDfpMatchedQueries",
+                            "edge_name": "adxBackfillDfpMatchedQueries",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adxBackfillDfpMeasurableImpressions",
+                            "edge_name": "adxBackfillDfpMeasurableImpressions",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adxBackfillDfpQueries",
+                            "edge_name": "adxBackfillDfpQueries",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adxBackfillDfpRevenueCpm",
+                            "edge_name": "adxBackfillDfpRevenueCpm",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adxBackfillDfpRevenueCpc",
+                            "edge_name": "adxBackfillDfpRevenueCpc",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adxBackfillDfpViewableImpressions",
+                            "edge_name": "adxBackfillDfpViewableImpressions",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adxBackfillDfpPagesViewed",
+                            "edge_name": "adxBackfillDfpPagesViewed",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adxClicks",
+                            "edge_name": "adxClicks",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adxImpressions",
+                            "edge_name": "adxImpressions",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adxMatchedQueries",
+                            "edge_name": "adxMatchedQueries",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adxMeasurableImpressions",
+                            "edge_name": "adxMeasurableImpressions",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adxQueries",
+                            "edge_name": "adxQueries",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adxRevenue",
+                            "edge_name": "adxRevenue",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adxViewableImpressions",
+                            "edge_name": "adxViewableImpressions",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adxPagesViewed",
+                            "edge_name": "adxPagesViewed",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adsViewed",
+                            "edge_name": "adsViewed",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adsUnitsViewed",
+                            "edge_name": "adsUnitsViewed",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adsUnitsMatched",
+                            "edge_name": "adsUnitsMatched",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "viewableAdsViewed",
+                            "edge_name": "viewableAdsViewed",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "measurableAdsViewed",
+                            "edge_name": "measurableAdsViewed",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adsPagesViewed",
+                            "edge_name": "adsPagesViewed",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adsClicked",
+                            "edge_name": "adsClicked",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "adsRevenue",
+                            "edge_name": "adsRevenue",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "dfpAdGroup",
+                            "edge_name": "dfpAdGroup",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "dfpAdUnits",
+                            "edge_name": "dfpAdUnits",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher",
+                            "name": "dfpNetworkId",
+                            "edge_name": "dfpNetworkId",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "parent": "hits",
+                    "name": "customVariables",
+                    "edge_name": "customVariables",
+                    "children": [
+                        {
+                            "parent": "customVariables",
+                            "name": "index",
+                            "edge_name": "index",
+                            "children": []
+                        },
+                        {
+                            "parent": "customVariables",
+                            "name": "customVarName",
+                            "edge_name": "customVarName",
+                            "children": []
+                        },
+                        {
+                            "parent": "customVariables",
+                            "name": "customVarValue",
+                            "edge_name": "customVarValue",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "parent": "hits",
+                    "name": "customDimensions",
+                    "edge_name": "customDimensions",
+                    "children": [
+                        {
+                            "parent": "customDimensions",
+                            "name": "index",
+                            "edge_name": "index",
+                            "children": []
+                        },
+                        {
+                            "parent": "customDimensions",
+                            "name": "value",
+                            "edge_name": "value",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "parent": "hits",
+                    "name": "customMetrics",
+                    "edge_name": "customMetrics",
+                    "children": [
+                        {
+                            "parent": "customMetrics",
+                            "name": "index",
+                            "edge_name": "index",
+                            "children": []
+                        },
+                        {
+                            "parent": "customMetrics",
+                            "name": "value",
+                            "edge_name": "value",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "parent": "hits",
+                    "name": "type",
+                    "edge_name": "type",
+                    "children": []
+                },
+                {
+                    "parent": "hits",
+                    "name": "social",
+                    "edge_name": "social",
+                    "children": [
+                        {
+                            "parent": "social",
+                            "name": "socialInteractionNetwork",
+                            "edge_name": "socialInteractionNetwork",
+                            "children": []
+                        },
+                        {
+                            "parent": "social",
+                            "name": "socialInteractionAction",
+                            "edge_name": "socialInteractionAction",
+                            "children": []
+                        },
+                        {
+                            "parent": "social",
+                            "name": "socialInteractions",
+                            "edge_name": "socialInteractions",
+                            "children": []
+                        },
+                        {
+                            "parent": "social",
+                            "name": "socialInteractionTarget",
+                            "edge_name": "socialInteractionTarget",
+                            "children": []
+                        },
+                        {
+                            "parent": "social",
+                            "name": "socialNetwork",
+                            "edge_name": "socialNetwork",
+                            "children": []
+                        },
+                        {
+                            "parent": "social",
+                            "name": "uniqueSocialInteractions",
+                            "edge_name": "uniqueSocialInteractions",
+                            "children": []
+                        },
+                        {
+                            "parent": "social",
+                            "name": "hasSocialSourceReferral",
+                            "edge_name": "hasSocialSourceReferral",
+                            "children": []
+                        },
+                        {
+                            "parent": "social",
+                            "name": "socialInteractionNetworkAction",
+                            "edge_name": "socialInteractionNetworkAction",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "parent": "hits",
+                    "name": "latencyTracking",
+                    "edge_name": "latencyTracking",
+                    "children": [
+                        {
+                            "parent": "latencyTracking",
+                            "name": "pageLoadSample",
+                            "edge_name": "pageLoadSample",
+                            "children": []
+                        },
+                        {
+                            "parent": "latencyTracking",
+                            "name": "pageLoadTime",
+                            "edge_name": "pageLoadTime",
+                            "children": []
+                        },
+                        {
+                            "parent": "latencyTracking",
+                            "name": "pageDownloadTime",
+                            "edge_name": "pageDownloadTime",
+                            "children": []
+                        },
+                        {
+                            "parent": "latencyTracking",
+                            "name": "redirectionTime",
+                            "edge_name": "redirectionTime",
+                            "children": []
+                        },
+                        {
+                            "parent": "latencyTracking",
+                            "name": "speedMetricsSample",
+                            "edge_name": "speedMetricsSample",
+                            "children": []
+                        },
+                        {
+                            "parent": "latencyTracking",
+                            "name": "domainLookupTime",
+                            "edge_name": "domainLookupTime",
+                            "children": []
+                        },
+                        {
+                            "parent": "latencyTracking",
+                            "name": "serverConnectionTime",
+                            "edge_name": "serverConnectionTime",
+                            "children": []
+                        },
+                        {
+                            "parent": "latencyTracking",
+                            "name": "serverResponseTime",
+                            "edge_name": "serverResponseTime",
+                            "children": []
+                        },
+                        {
+                            "parent": "latencyTracking",
+                            "name": "domLatencyMetricsSample",
+                            "edge_name": "domLatencyMetricsSample",
+                            "children": []
+                        },
+                        {
+                            "parent": "latencyTracking",
+                            "name": "domInteractiveTime",
+                            "edge_name": "domInteractiveTime",
+                            "children": []
+                        },
+                        {
+                            "parent": "latencyTracking",
+                            "name": "domContentLoadedTime",
+                            "edge_name": "domContentLoadedTime",
+                            "children": []
+                        },
+                        {
+                            "parent": "latencyTracking",
+                            "name": "userTimingValue",
+                            "edge_name": "userTimingValue",
+                            "children": []
+                        },
+                        {
+                            "parent": "latencyTracking",
+                            "name": "userTimingSample",
+                            "edge_name": "userTimingSample",
+                            "children": []
+                        },
+                        {
+                            "parent": "latencyTracking",
+                            "name": "userTimingVariable",
+                            "edge_name": "userTimingVariable",
+                            "children": []
+                        },
+                        {
+                            "parent": "latencyTracking",
+                            "name": "userTimingCategory",
+                            "edge_name": "userTimingCategory",
+                            "children": []
+                        },
+                        {
+                            "parent": "latencyTracking",
+                            "name": "userTimingLabel",
+                            "edge_name": "userTimingLabel",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "parent": "hits",
+                    "name": "sourcePropertyInfo",
+                    "edge_name": "sourcePropertyInfo",
+                    "children": [
+                        {
+                            "parent": "sourcePropertyInfo",
+                            "name": "sourcePropertyDisplayName",
+                            "edge_name": "sourcePropertyDisplayName",
+                            "children": []
+                        },
+                        {
+                            "parent": "sourcePropertyInfo",
+                            "name": "sourcePropertyTrackingId",
+                            "edge_name": "sourcePropertyTrackingId",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "parent": "hits",
+                    "name": "contentGroup",
+                    "edge_name": "contentGroup",
+                    "children": [
+                        {
+                            "parent": "contentGroup",
+                            "name": "contentGroup1",
+                            "edge_name": "contentGroup1",
+                            "children": []
+                        },
+                        {
+                            "parent": "contentGroup",
+                            "name": "contentGroup2",
+                            "edge_name": "contentGroup2",
+                            "children": []
+                        },
+                        {
+                            "parent": "contentGroup",
+                            "name": "contentGroup3",
+                            "edge_name": "contentGroup3",
+                            "children": []
+                        },
+                        {
+                            "parent": "contentGroup",
+                            "name": "contentGroup4",
+                            "edge_name": "contentGroup4",
+                            "children": []
+                        },
+                        {
+                            "parent": "contentGroup",
+                            "name": "contentGroup5",
+                            "edge_name": "contentGroup5",
+                            "children": []
+                        },
+                        {
+                            "parent": "contentGroup",
+                            "name": "previousContentGroup1",
+                            "edge_name": "previousContentGroup1",
+                            "children": []
+                        },
+                        {
+                            "parent": "contentGroup",
+                            "name": "previousContentGroup2",
+                            "edge_name": "previousContentGroup2",
+                            "children": []
+                        },
+                        {
+                            "parent": "contentGroup",
+                            "name": "previousContentGroup3",
+                            "edge_name": "previousContentGroup3",
+                            "children": []
+                        },
+                        {
+                            "parent": "contentGroup",
+                            "name": "previousContentGroup4",
+                            "edge_name": "previousContentGroup4",
+                            "children": []
+                        },
+                        {
+                            "parent": "contentGroup",
+                            "name": "previousContentGroup5",
+                            "edge_name": "previousContentGroup5",
+                            "children": []
+                        },
+                        {
+                            "parent": "contentGroup",
+                            "name": "contentGroupUniqueViews1",
+                            "edge_name": "contentGroupUniqueViews1",
+                            "children": []
+                        },
+                        {
+                            "parent": "contentGroup",
+                            "name": "contentGroupUniqueViews2",
+                            "edge_name": "contentGroupUniqueViews2",
+                            "children": []
+                        },
+                        {
+                            "parent": "contentGroup",
+                            "name": "contentGroupUniqueViews3",
+                            "edge_name": "contentGroupUniqueViews3",
+                            "children": []
+                        },
+                        {
+                            "parent": "contentGroup",
+                            "name": "contentGroupUniqueViews4",
+                            "edge_name": "contentGroupUniqueViews4",
+                            "children": []
+                        },
+                        {
+                            "parent": "contentGroup",
+                            "name": "contentGroupUniqueViews5",
+                            "edge_name": "contentGroupUniqueViews5",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "parent": "hits",
+                    "name": "dataSource",
+                    "edge_name": "dataSource",
+                    "children": []
+                },
+                {
+                    "parent": "hits",
+                    "name": "publisher_infos",
+                    "edge_name": "publisher_infos",
+                    "children": [
+                        {
+                            "parent": "publisher_infos",
+                            "name": "dfpClicks",
+                            "edge_name": "dfpClicks",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "dfpImpressions",
+                            "edge_name": "dfpImpressions",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "dfpMatchedQueries",
+                            "edge_name": "dfpMatchedQueries",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "dfpMeasurableImpressions",
+                            "edge_name": "dfpMeasurableImpressions",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "dfpQueries",
+                            "edge_name": "dfpQueries",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "dfpRevenueCpm",
+                            "edge_name": "dfpRevenueCpm",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "dfpRevenueCpc",
+                            "edge_name": "dfpRevenueCpc",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "dfpViewableImpressions",
+                            "edge_name": "dfpViewableImpressions",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "dfpPagesViewed",
+                            "edge_name": "dfpPagesViewed",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adsenseBackfillDfpClicks",
+                            "edge_name": "adsenseBackfillDfpClicks",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adsenseBackfillDfpImpressions",
+                            "edge_name": "adsenseBackfillDfpImpressions",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adsenseBackfillDfpMatchedQueries",
+                            "edge_name": "adsenseBackfillDfpMatchedQueries",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adsenseBackfillDfpMeasurableImpressions",
+                            "edge_name": "adsenseBackfillDfpMeasurableImpressions",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adsenseBackfillDfpQueries",
+                            "edge_name": "adsenseBackfillDfpQueries",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adsenseBackfillDfpRevenueCpm",
+                            "edge_name": "adsenseBackfillDfpRevenueCpm",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adsenseBackfillDfpRevenueCpc",
+                            "edge_name": "adsenseBackfillDfpRevenueCpc",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adsenseBackfillDfpViewableImpressions",
+                            "edge_name": "adsenseBackfillDfpViewableImpressions",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adsenseBackfillDfpPagesViewed",
+                            "edge_name": "adsenseBackfillDfpPagesViewed",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adxBackfillDfpClicks",
+                            "edge_name": "adxBackfillDfpClicks",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adxBackfillDfpImpressions",
+                            "edge_name": "adxBackfillDfpImpressions",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adxBackfillDfpMatchedQueries",
+                            "edge_name": "adxBackfillDfpMatchedQueries",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adxBackfillDfpMeasurableImpressions",
+                            "edge_name": "adxBackfillDfpMeasurableImpressions",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adxBackfillDfpQueries",
+                            "edge_name": "adxBackfillDfpQueries",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adxBackfillDfpRevenueCpm",
+                            "edge_name": "adxBackfillDfpRevenueCpm",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adxBackfillDfpRevenueCpc",
+                            "edge_name": "adxBackfillDfpRevenueCpc",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adxBackfillDfpViewableImpressions",
+                            "edge_name": "adxBackfillDfpViewableImpressions",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adxBackfillDfpPagesViewed",
+                            "edge_name": "adxBackfillDfpPagesViewed",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adxClicks",
+                            "edge_name": "adxClicks",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adxImpressions",
+                            "edge_name": "adxImpressions",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adxMatchedQueries",
+                            "edge_name": "adxMatchedQueries",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adxMeasurableImpressions",
+                            "edge_name": "adxMeasurableImpressions",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adxQueries",
+                            "edge_name": "adxQueries",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adxRevenue",
+                            "edge_name": "adxRevenue",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adxViewableImpressions",
+                            "edge_name": "adxViewableImpressions",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adxPagesViewed",
+                            "edge_name": "adxPagesViewed",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adsViewed",
+                            "edge_name": "adsViewed",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adsUnitsViewed",
+                            "edge_name": "adsUnitsViewed",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adsUnitsMatched",
+                            "edge_name": "adsUnitsMatched",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "viewableAdsViewed",
+                            "edge_name": "viewableAdsViewed",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "measurableAdsViewed",
+                            "edge_name": "measurableAdsViewed",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adsPagesViewed",
+                            "edge_name": "adsPagesViewed",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adsClicked",
+                            "edge_name": "adsClicked",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "adsRevenue",
+                            "edge_name": "adsRevenue",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "dfpAdGroup",
+                            "edge_name": "dfpAdGroup",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "dfpAdUnits",
+                            "edge_name": "dfpAdUnits",
+                            "children": []
+                        },
+                        {
+                            "parent": "publisher_infos",
+                            "name": "dfpNetworkId",
+                            "edge_name": "dfpNetworkId",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "parent": "hits",
+                    "name": "uses_transient_token",
+                    "edge_name": "uses_transient_token",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "parent": "events_",
+            "name": "fullVisitorId",
+            "edge_name": "fullVisitorId",
+            "children": []
+        },
+        {
+            "parent": "events_",
+            "name": "userId",
+            "edge_name": "userId",
+            "children": []
+        },
+        {
+            "parent": "events_",
+            "name": "clientId",
+            "edge_name": "clientId",
+            "children": []
+        },
+        {
+            "parent": "events_",
+            "name": "channelGrouping",
+            "edge_name": "channelGrouping",
+            "children": []
+        },
+        {
+            "parent": "events_",
+            "name": "socialEngagementType",
+            "edge_name": "socialEngagementType",
+            "children": []
+        },
+        {
+            "parent": "events_",
+            "name": "privacyInfo",
+            "edge_name": "privacyInfo",
+            "children": [
+                {
+                    "parent": "privacyInfo",
+                    "name": "analytics_storage",
+                    "edge_name": "analytics_storage",
+                    "children": []
+                },
+                {
+                    "parent": "privacyInfo",
+                    "name": "ads_storage",
+                    "edge_name": "ads_storage",
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "_children": []
+}
