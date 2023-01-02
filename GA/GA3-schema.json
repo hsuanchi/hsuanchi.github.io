@@ -1,6 +1,6 @@
 {
     "parent": "null",
-    "name": "events_",
+    "name": "ga_sessions_",
     "edge_name": "null",
     "children": [
         {
