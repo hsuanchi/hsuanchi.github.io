@@ -1,11 +1,16 @@
 name: cache article info by daily
 
 on:
+  # run automatically every 6 hours
+  schedule:
+    - cron: "0 1 * * *" 
+  
+  # allows to manually run the job at any time
+  workflow_dispatch:
+
   push:
     branches:
     - article
-  schedule:
-    - cron:  '0 12 * * *'
 
 jobs:
   build:
