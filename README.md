@@ -1,14 +1,12 @@
-## Todo
+## To Do List
 - [ ] Add chinese version
-* BE
-    * add chinese database
-    * add transaction in crawler CF
-* FE 
-    * add export chinese-json github action
-    * add chinese html
-    * add language header
+   - [ ] FE - add export chinese-json github action
+   - [ ] FE - add chinese html
+   - [ ] FE - add language button in header
+   - [ ] BE -  add chinese table
+   - [ ] BE - add translation function
 
-### Nice to have
+## Nice to have
 - [ ] Adjust the dark/light mode icone
 - [ ] Remove the jQuery
 - [ ] Add the tailwind
